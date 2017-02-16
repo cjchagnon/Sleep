@@ -18,11 +18,11 @@
     <div class="row">
       <div class="medium-12 columns menu-centered">
         <ul class="menu">
-          <li class="menu-home"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-          <li class="menu-add"><a href="#"><i class="fa fa-plus"></i> Add</a></li>
-          <li class="menu-user"><a href="#"><i class="fa fa-user"></i> Your Profile</a></li>
-          <li class="menu-history"><a href="#"> <i class="fa fa-area-chart"></i>View Log</a></li>
-          <li class="menu-setting"><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
+          <li class="menu-home"><a href="?page=home"><i class="fa fa-home"></i> Home</a></li>
+          <li class="menu-add"><a href="?page=add"><i class="fa fa-plus"></i> Add</a></li>
+          <li class="menu-user"><a href="?page=user"><i class="fa fa-user"></i> Your Profile</a></li>
+          <li class="menu-history"><a href="?page=history"> <i class="fa fa-area-chart"></i>View Log</a></li>
+          <li class="menu-setting"><a href="?page=settings"><i class="fa fa-gear"></i> Settings</a></li>
         </ul>
       </div>
     </div>

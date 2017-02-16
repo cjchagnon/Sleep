@@ -19,7 +19,7 @@
 </div>
 <div class="row">
   <div class=" small-12 medium-6 large-4 medium-centered default-login">
-    <div class="card card-full card-rounded shadow-d1">
+    <div class="card card-full card-rounded shadow-d3">
       <form>
         <label>Username
           <input type="text" placeholder="Username">
@@ -28,7 +28,7 @@
           <input type="password" placeholder="Password">
         </label>
       </form>
-      <a class="button large expanded default-button-login" href="?page=home">Login</a>
+      <a class="button large expanded default-button-login shadow-d2" href="?page=home">Login</a>
       <a class="default-button-signup" href="#">Sign Up</a>
     </div>
   </div>
