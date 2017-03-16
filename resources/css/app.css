@@ -222,25 +222,48 @@ body{
   height: 100%;
   background-repeat: no-repeat;
 }
-.do-this-bg.pic-sleep{
-  background-image: url('../img/img-1.jpg');
+.do-this-bg.pic-wake{
+  background-image: url('../img/wake.jpg');
   background-position: center;
 }
-.pic-sleep .do-this-layer{
-  background-color: rgba(255, 83, 13,.5);
+.do-this-bg.pic-sleep{
+  background-image: url('../img/head.jpg');
+  background-position: center;
 }
-.pic-sleep .do-this-layer:hover{
-  background-color: rgba(255, 83, 13,.7);
+.do-this-bg.pic-fit{
+  background-image: url('../img/fit2.jpg');
+  background-position: center;
 }
 .do-this-bg.pic-coffee{
-  background-image: url('../img/img-2.jpg');
+  background-image: url('../img/coffee.jpg');
   background-position: center;
+}
+.do-this-card-vis{
+  display:none;
+}
+.pic-wake .do-this-layer{
+  background-color: rgba(255, 83, 13,.5);
+}
+.pic-wake .do-this-layer:hover{
+  background-color: rgba(255, 83, 13,.7);
+}
+.pic-sleep .do-this-layer{
+  background-color: rgba(38,34,98,.5);
+}
+.pic-sleep .do-this-layer:hover{
+  background-color: rgba(38,34,98,.7));
 }
 .pic-coffee .do-this-layer{
   background-color: rgba(255, 40, 60,.5);
 }
 .pic-coffee .do-this-layer:hover{
   background-color: rgba(255, 40, 60,.7);
+}
+.pic-fit .do-this-layer{
+  background-color: rgba(69, 204, 255,.5);
+}
+.pic-fit .do-this-layer:hover{
+  background-color: rgba(69, 204, 255,.7);
 }
 .do-this-layer{
   height: 100%;
@@ -256,14 +279,63 @@ body{
   width: 100%;
   height: 100%;
   font-size:3em;
-  padding-top: 1em;
+  padding-top: 1.25em;
 }
 .do-this-layer .do-this-text .do-this-text-flavor{
   font-size:.5em;
 }
-.choice-block a{
+.choice-coffee p{
   color:black;
   font-weight: 600;
+}
+.choice-active img{
+  background-color:rgba(102,45,145,.4);
+  border-radius: 3px;
+}
+.choice-input{
+  padding:0;
+  border-radius: 3px;
+  line-height: 2;
+}
+.input-no-style{
+  border:none;
+  box-shadow:none;
+  padding:0;
+  margin:0;
+}
+.input-no-style:focus{
+  outline:none;
+  border:none;
+  box-shadow:none;
+}
+.choice-input-label{
+  margin-top: .5em;
+  margin-left: -.5em;
+}
+.choice-label{
+  color:  rgb(102,45,145);
+  font-weight: 600;
+  padding:0;
+  margin:0;
+  margin-left: -2em;
+  float: left!important;
+  padding-top: .5em;
+}
+.bump-down{
+  margin-top:1.5em;
+}
+.stat-num{
+  color:  rgb(102,45,145);
+  font-weight: 600;
+}
+.slider-handle{
+  background-color: rgb(102,45,145);
+}
+.slider-handle:hover{
+  background-color: rgba(38,34,98,1);
+}
+.slider-fill{
+  background-color: rgba(38,34,98,1);
 }
 /* Media Queries */
 

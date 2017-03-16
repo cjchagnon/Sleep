@@ -10,6 +10,7 @@
 
 /* Variables and Constants */
 	$server_url = "//".$_SERVER["SERVER_NAME"]."/Sleep";
+	$server_path = $_SERVER["SERVER_NAME"]."/Sleep";
 	$page_title ="Sleep Health";
 /* Global Functions */
 

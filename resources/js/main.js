@@ -1,8 +1,17 @@
 $(document).ready(function(){
 
-  $('#card-wake-up').click(function(event){
+  $('#card-wake').click(function(event){
     event.preventDefault();
-    $(this).fadeOut();
-    console.log("clicked");
+    $(this).fadeOut(function(){
+      $('#card-sleep').fadeIn();
+    });
   })
+
+  $('#card-sleep').click(function(event){
+    event.preventDefault();
+    $(this).fadeOut(function(){
+      $('#card-wake').fadeIn();
+    });
+  })
+
 });
